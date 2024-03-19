@@ -13,4 +13,5 @@ import User from "./models/user.schema.js";
   } catch (e) {
     console.error(e);
   }
+  process.exit();
 })();
